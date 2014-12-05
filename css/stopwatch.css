@@ -1,0 +1,58 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.timecontainer{
+    margin: 120px auto;
+    width: 625px;
+    text-align: center;
+}
+
+.timecontainer #time{
+    font-size: 5em;
+    font-family: 'Fira Mono';
+}
+
+.reminder{
+    position: fixed;
+    bottom: 20px;
+    border-top: 1px solid #e7e7e7;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#timestamps{
+   width: 100%;
+   max-height: 420px;
+   overflow: hidden;
+   overflow-x: hidden;
+   margin-top: 24px;
+}
+
+code{
+   background-color: #e7e7e7;
+   padding: 0;
+}
+
+::-webkit-scrollbar {  
+    width: 12px;
+    transition: 0.5s;  
+}  
+::-webkit-scrollbar-track {  
+    background-color: #eaeaea;  
+    border-left: 1px solid #ccc;  
+}  
+::-webkit-scrollbar-thumb {  
+    background-color: #ccc;  
+}  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: #aaa;  
+}  

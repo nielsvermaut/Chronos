@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/stopwatch.css" type="type/css">
+        <link href='http://fonts.googleapis.com/css?family=Fira+Mono|Montserrat:700,400' rel='stylesheet' type='text/css'>
+	</head>
+	<body onload="show();" onclick="click();">
+        <div class="timecontainer">
+            <span id="time"></span>
+            <div id="timestamps" onmouseover="showScrollbar();" onmouseout="hideScrollbar()"></div>
+        </div>
+        <div class="reminder">
+            <code>(B)</code>egin |  <code>(E)</code>nd/Pauze |  <code>(R)</code>eset  |  e<code>(X)</code>port  |  <code>(N)</code>ew timestamp
+        </div>
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/stopwatch.js"></script>
+        <script src="js/stopwatch.extension.js"></script>
+	<script src="js/shCroller.js"></script>
+</body>
+</html>
