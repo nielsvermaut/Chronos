@@ -12,5 +12,8 @@ our CMS solution over at gamehour.be, but if you want to custom fit it, just edi
 ##Demo
 A demo can be found on http://tools.gamehour.be/chronos
 
+##License
+As usual, software should be open CC-SA
+
 ##Support and question
 Questions can be mailed to im@nielsvermaut.eu or @nielsvermaut at Twitter.
